@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
 import { urlFor, client } from '../../client';
-import { AppWrap } from '../../wrapper';
+import { AppWrap, MotionWrap } from '../../wrapper';
 
 // const abouts = [
 //   { title: 'web Development', description: 'I am a Good Web Developer', imgUrl: images.about01 },
@@ -52,4 +52,8 @@ const About = () => {
   );
 }
 
-export default AppWrap(About,'about');
+export default AppWrap(
+ MotionWrap(About, 'app__about'),
+ 'about',
+ 'app__whitebg'
+  );
