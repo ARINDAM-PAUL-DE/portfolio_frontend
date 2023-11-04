@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="your-portfolio-image-url" alt="Your Portfolio Screenshot">
+
 </p>
 
 # My Portfolio
