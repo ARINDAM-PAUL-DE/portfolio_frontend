@@ -37,6 +37,9 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import frontend from '../assets/frontend.png';
+import mern from '../assets/mern.png';
+import uiux from '../assets/uiux.png';
 
 
 export default {
@@ -75,4 +78,7 @@ export default {
     spotify,   
     profile1,
     logo1,
+    frontend,
+    uiux,
+    mern,
 };
